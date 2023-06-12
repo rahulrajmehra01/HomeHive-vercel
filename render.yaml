@@ -1,0 +1,9 @@
+services:
+  - name: backend
+    env:
+      - MONGODB_URL=mongodb+srv://rahulrajmehra06:antonio@cluster0.wrmdzcs.mongodb.net/?retryWrites=true&w=majority
+      - KEY_ID=rzp_test_8Y64LSQLP6IhdB
+      - KEY_SECRET=PCVxoHHMkisTRCSCWltbK8sh
+      - ORIGIN_URL=https://home-hive-vercel.vercel.app/
+    buildCommand: "npm install"
+    startCommand: "node index.js"
