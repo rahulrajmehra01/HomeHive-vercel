@@ -17,6 +17,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
+    "build": "npm install",
     "serv": "nodemon index.js"
   },
   "license": "MIT",
